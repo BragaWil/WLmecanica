@@ -1,0 +1,27 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato__mapa{
+    width: 80vw;
+    height: 60vw;
+    margin: 2rem 0;
+}
+
+.contato__imagem{
+    margin: 2rem 0;
+    width: 40vw;
+}
+
+@media (min-width: 720px) {
+   .contato__mapa{
+        width: 90vw;
+        height: 70vw;
+   }
+
+   .contato__imagem{
+    width: 50vw;
+   }  
+}
